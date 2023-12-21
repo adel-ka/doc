@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Work+Sans:wght@300&display=swap');#logo{
+    width: 268px;
+    height: 33px;
+    margin-top: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+li{
+    list-style: none;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main-menu-item{
+    margin-left: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ABABAB;
+}
+#about{
+    color: #00BFA5;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 195px;
+    height: 220px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    margin-left: -100px;
+}
+
+#logo,li:hover{
+    cursor: pointer;
+    color: #00BFA5;
+}
+.main-menu-item:hover .sub-menu{
+display: block;
+}
+
+.sub-menu-item{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ABABAB;
+    width:220px;
+    height: 39px;
+    margin-left: -40px;
+    padding-left: 15px;
+    padding-top: 3px;
+
+}
+
+.sub-menu-item:hover{
+    background-color: #F6F8F8;
+}
+
+#pr{
+    margin-top: 10px;
+
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+h1{
+    font-family: "Work Sans", Arial, sans-serif;
+
+font-size: 34px;
+
+Font-weight: 300;
+
+Line-height: 44.2px;
+
+ color: rgb(0, 179, 155)
+}
+
+.para{
+    display: flex;
+    width: 1015px;
+    margin-left: 15%;
+}
+
+p{
+    font-family: Roboto, Arial, sans-serif;
+
+    font-size: 16;
+    
+    Font-weight: 400;
+    
+    Line-height: 25px;
+    
+     color: rgb(116, 116, 116);
+     width: 477.5px;
+}
+
+.p2{
+    margin-left: 20px;
+}
